@@ -19,7 +19,7 @@ EOT
         v.default_workflow_permissions == null || (contains(["read", "write"], v.default_workflow_permissions))
       )
     ])
-    error_message = "must be one of: read, write"
+    error_message = "must be one of: \"read\", \"write\""
   }
 }
 
